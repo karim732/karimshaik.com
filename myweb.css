@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+  }
+.container{
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 1750px;
+    width: 1550px;
+    margin: 0px;
+}
+.name{
+    font-family: Sans-serif;
+    font-size: 50px;
+    width: 660px;
+    position: relative;
+    left: 8%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.details{
+    position: relative;
+    width: 450px;
+    font-size: 17px;
+    transform: translate(35% , -30%);
+}
+#faf{
+    font-size: 22px;
+}
+.address{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin: 9px;
+    top:-50%
+}
+.phone{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin: 9px;
+    top:-50%
+}
+.mail{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin: 9px;
+    top:-50%
+}
+.linkedin{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin: 9px;
+    top:-50%
+}
+.profile-pic{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 40%;
+    top: 70px;
+    border-radius: 20px;
+}
+.summary-container{
+    width: 550px;
+    height: 200px;
+    position: relative;
+    left: 5%;
+}
+.summary{
+    width: 500px;
+    position: relative;
+    left: 9%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.skill-intrest-container{
+    position: absolute;
+    left: 70%;
+    top: 8.5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid royalblue;
+    background-color:burlywood;
+    height: auto;
+    width: 400px;
+    padding-bottom: 10px;
+}
+.skill-container{
+    position: relative;
+    width: 350px;
+    font-family: system-ui;
+    left: 5%;
+}
+.skills{
+    font-size: 25px;
+    margin-bottom: 0px;
+    
+}
+.skills-details{
+    font-size: 18px;
+}
+.intrest-container{
+    position: relative;
+    width: 350px;
+    font-family: system-ui;
+    left: 5%;
+}
+.intrests{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.intrests-details{
+    font-size: 18px;
+}
+.language-container{
+    position: relative;
+    left: 9%;
+    top: 2%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid royalblue;
+    background-color:burlywood;
+    height: auto;
+    padding-left: 15px;
+    width: 350px;
+    font-family:system-ui;
+}
+.language{
+    font-size: 25px;
+    position: relative;
+    margin-top: 16px;
+}
+.language-datails{
+    font-size: 18px;
+}
+.button-container{
+    background-color: blue;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.hschl{
+    flex-direction: row;
+    display: flex;
+
+}
+.btech{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+.x ,.xii,.sem1,.sem2,.sem3,.sem4,.sem5,.sem6,.sem7,.sem8{
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+.clgd{
+    margin-left: 22px;
+}
+.passingy{
+  margin: 0px;
+  transform: translate(165%);
+}
+.acdm-pic{
+    position:absolute;
+    width: 550px;
+    height: 600px;
+    left: 62%;
+    top: 70%;
+}
+
+.project {
+    display: flex;
+    position: absolute;
+    left: 6%;
+    top: 110%;
+    width: 840px;
+  }
+
+  .project1,.project2 {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+.doc{
+  position:relative;
+  width: 600px;
+  transform: translate(100% , 1420%);
+}
+.number{
+  position:absolute;
+  transform: translate(20% , -30%);
+}
+.sli-doc{
+  width: 900px;
+  height: 500px;
+  position: relative;
+  transform: translate(40% ,110%);
+  background-size: 100% 100%;
+  box-shadow: 1px 2px 10px 5px rgb(218, 182, 25);
+}
+.sli-doc img{
+  width: 900px;
+  height: 500px;
+}
+.prev{
+  position: absolute;
+  transform: translate(-0% , 700%);
+  cursor: pointer;
+  background:transparent;
+  border: 1px solid black;
+  color:#fc9126;
+  font-weight: bold;
+  font-size: 25px;
+}
+.next{
+  position: absolute;
+  transform: translate(-100% , 700%);
+  cursor: pointer;
+  background:transparent;
+  border: 1px solid black;
+  color: #fc9126;
+  font-weight: bold;
+  font-size: 25px;
+}
