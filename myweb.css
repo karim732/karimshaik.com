@@ -1,14 +1,12 @@
-* {
-    box-sizing: border-box;
-  }
-.container{
-    border: 1px solid silver;
-    border-radius: 10px;
-    box-sizing: border-box;
-    height: 1750px;
-    width: 1550px;
-    margin: 0px;
+
+.main{
+    background-color: #ac3b61;
+    border: 3px solid #1f2833;
+    border-radius: 12px;
+    margin: 12px;
+    padding:40px;
 }
+
 .name{
     font-family: Sans-serif;
     font-size: 50px;
@@ -21,9 +19,10 @@
 
 .details{
     position: relative;
+    margin-top: 40px;
     width: 450px;
     font-size: 17px;
-    transform: translate(35% , -30%);
+    transform: translate(25% , -30%);
 }
 #faf{
     font-size: 22px;
@@ -52,46 +51,40 @@
     margin: 9px;
     top:-50%
 }
+
 .profile-pic{
     width: 400px;
     height: 400px;
-    position: absolute;
-    left: 40%;
-    top: 70px;
     border-radius: 20px;
 }
-.summary-container{
-    width: 550px;
-    height: 200px;
-    position: relative;
-    left: 5%;
-}
-.summary{
-    width: 500px;
-    position: relative;
-    left: 9%;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-size: 20px;
-}
-.skill-intrest-container{
-    position: absolute;
-    left: 70%;
-    top: 8.5%;
-    border-radius: 10px;
-    box-sizing: border-box;
-    border: 2px solid royalblue;
-    background-color:burlywood;
-    height: auto;
-    width: 400px;
-    padding-bottom: 10px;
-}
-.skill-container{
+
+.intrest-container , .skill-container, .language-container{
     position: relative;
     width: 350px;
     font-family: system-ui;
     left: 5%;
 }
+
+.summary-container{
+    width: 550px;
+    height: 200px;
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.sil{
+    background-color: #123c69;
+    border: 2px solid #454545;
+    color: whitesmoke;
+    border-radius: 12px;
+    height: 550px;
+    padding: 12px;
+    filter: drop-shadow(0 0 0.75rem #66fc66);
+}
+
 .skills{
     font-size: 25px;
     margin-bottom: 0px;
@@ -100,12 +93,7 @@
 .skills-details{
     font-size: 18px;
 }
-.intrest-container{
-    position: relative;
-    width: 350px;
-    font-family: system-ui;
-    left: 5%;
-}
+
 .intrests{
     font-size: 25px;
     margin-top: 0px;
@@ -114,19 +102,7 @@
 .intrests-details{
     font-size: 18px;
 }
-.language-container{
-    position: relative;
-    left: 9%;
-    top: 2%;
-    border-radius: 10px;
-    box-sizing: border-box;
-    border: 2px solid royalblue;
-    background-color:burlywood;
-    height: auto;
-    padding-left: 15px;
-    width: 350px;
-    font-family:system-ui;
-}
+
 .language{
     font-size: 25px;
     position: relative;
@@ -135,114 +111,92 @@
 .language-datails{
     font-size: 18px;
 }
-.button-container{
-    background-color: blue;
-    width: 350px;
-    height: auto;
-    position: absolute;
-    left: 35%;
-    top: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.hschl{
-    flex-direction: row;
-    display: flex;
 
-}
-.btech{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-}
-.x ,.xii,.sem1,.sem2,.sem3,.sem4,.sem5,.sem6,.sem7,.sem8{
-    width: 100px;
-    height: 20px;
-    margin: 10px;
-    margin-left: 40px;
-    cursor: pointer;
-
-}
-.clgd{
-    margin-left: 22px;
-}
-.passingy{
-  margin: 0px;
-  transform: translate(165%);
-}
-.acdm-pic{
-    position:absolute;
-    width: 550px;
-    height: 600px;
-    left: 62%;
-    top: 70%;
-}
-
-.project {
-    display: flex;
-    position: absolute;
-    left: 6%;
-    top: 110%;
-    width: 840px;
-  }
-
-  .project1,.project2 {
+.project1{
     flex: 50%;
     padding: 10px;
-    height: 300px; 
-  }
-.doc{
-  position:relative;
-  width: 600px;
-  transform: translate(100% , 1380%);
-}
-.number{
-  position:absolute;
-  transform: translate(20% , -30%);
-}
-.sli-doc{
-  width: 900px;
-  height: 500px;
-  position: relative;
-  transform: translate(40% ,100%);
-  background-size: 100% 100%;
-  box-shadow: 1px 2px 10px 5px rgb(218, 182, 25);
-}
-.sli-doc img{
-  width: 900px;
-  height: 500px;
-}
-.prev{
-  position: absolute;
-  transform: translate(-0% , 700%);
-  cursor: pointer;
-  background:transparent;
-  border: 1px solid black;
-  color:#fc9126;
-  font-weight: bold;
-  font-size: 25px;
-}
-.next{
-  position: absolute;
-  transform: translate(-100% , 700%);
-  cursor: pointer;
-  background:transparent;
-  border: 1px solid black;
-  color: #fc9126;
-  font-weight: bold;
-  font-size: 25px;
+    height: 250px; 
+    width: 550px;
+    margin-top:40px; 
+    border-radius:15px ;
+    border: 2px solid #2e151b;
 }
 
-@media (max-width:468px) {
-    .profile-pic{
-        position: absolute;
-        transform: translate(50% , 0%);
-        
-    }
-    .skill-intrest-container{
-        position: relative;
-        left: 100px;
-        background-color: red;
-    }
+
+.project2 {
+    flex: 50%;
+    padding: 10px;
+    height: 250px; 
+    margin-top: 80px;
+    border-radius:15px ;
+    border: 2px solid #2e151b;
 }
+
+  .xiotra{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.doc{
+    width: 600px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+  }
+  .number{
+    position:absolute;
+    transform: translate(20% , -30%);
+    margin-top: 10px;
+  }
+  .sli-doc{
+    width: 900px;
+    height: 500px;
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px #376e6f;
+  }
+  .sli-doc img{
+    width: 900px;
+    height: 500px;
+  }
+  .prev{
+    position: absolute;
+    transform: translate(-0% , 550%);
+    cursor: pointer;
+    background:transparent;
+    border: 1px solid black;
+    color:#fc9126;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .next{
+    position: absolute;
+    transform: translate(-100% , 550%);
+    cursor: pointer;
+    background:transparent;
+    border: 1px solid black;
+    color: #fc9126;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+
+.slid{
+    margin-top: 30px;
+}
+/* swiper */
+
+  .swiper {
+    width: 400px;
+    height: 600px;
+    margin-top: 30px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+/* swiper */
